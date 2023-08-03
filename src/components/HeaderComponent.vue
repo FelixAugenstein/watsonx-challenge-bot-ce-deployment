@@ -25,6 +25,16 @@
                         </router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link to="/turbonomic-assistant" class="nav-link">
+                            Turbonomic
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link to="/cp4aiops-assistant" class="nav-link">
+                            CP4AIOps
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link to="/about" class="nav-link">
                             About
                         </router-link>
@@ -66,13 +76,10 @@ header {
     font-weight: 300;
     padding: 0.8rem;
     color: #fff !important;
+    border-bottom: 2px solid rgb(0 0 0 / 10%);
  }
- .nav-link:hover{
+ .nav-link:hover, .router-link-active{
     background-color: #393939 !important;
     border-bottom: 2px solid #0F62FF;
  }
- .router-link-active {
-    background-color: #393939 !important;
-    border-bottom: 2px solid #0F62FF;
-}
 </style>

@@ -15,14 +15,27 @@
       <div class="row g-3">
         <div class="col-12 col-md-4">
           <router-link to="/instana-assistant">
-            <div class="item"><h2>Instana assistant</h2></div>
+            <div class="item">
+              <h2>Instana assistant</h2>
+              <p>Ask questions about IBM Instana Observability, application performance management & monitoring, benefits, pricing, features, integrations of Instana and much more.</p>
+            </div>
           </router-link>
         </div>
         <div class="col-12 col-md-4">
-          <div class="item"><h2>Turbonomic assistant</h2></div>
+          <router-link to="/turbonomic-assistant">
+            <div class="item">
+              <h2>Turbonomic assistant</h2>
+              <p>Ask questions about IBM Turbonomic, application ressource management, hybrid cloud cost optimization, features, use cases, pricing and recognition of Turbonomic.</p>
+            </div>
+          </router-link>
         </div>
         <div class="col-12 col-md-4">
-          <div class="item"><h2>Cloud Object Storage assistant</h2></div>
+          <router-link to="/cp4aiops-assistant">
+            <div class="item">
+              <h2>CP4AIOps assistant</h2>
+              <p>Ask questions about how to infuse your AIOps platform with intelligent IT operations, event grouping, anomaly detection, incident localization, and other automation features.</p>
+            </div>
+          </router-link>
         </div>
       </div>
     </div>
