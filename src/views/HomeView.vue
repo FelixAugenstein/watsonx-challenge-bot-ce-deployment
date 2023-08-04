@@ -73,4 +73,14 @@ a{
 .item:hover{
   background-color: #e0e0e0;
 }
+@media (max-width: 991px) {
+  .item{
+    background-color: #f4f4f4;
+    padding: 0.75rem;
+    min-height: 150px;
+    border-left: 2px solid #0F62FF;
+    transition: 0.2s;
+    opacity: 0.9;
+  }
+}
 </style>

@@ -2,6 +2,15 @@
     <HeaderComponent />
 
     <div class="headerspace"></div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>CP4AIOps assistant</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
 
     <FooterComponent />
 </template>
@@ -49,5 +58,8 @@ onBeforeUnmount (() => {
 .headerspace {
   height: 120px;
   display: block;
+}
+h1, h2, h3 {
+  font-weight: 300;
 }
 </style>

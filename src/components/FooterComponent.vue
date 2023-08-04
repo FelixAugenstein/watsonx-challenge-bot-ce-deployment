@@ -75,7 +75,7 @@ footer {
     margin: 0;
     padding: 2px;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 }
 </style>
